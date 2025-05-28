@@ -41,19 +41,18 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         body: const Padding(
           padding: EdgeInsets.all(4),
-          child: Row(
-            children: [
-              StoryCard(
-                color: Colors.green,
-              ),
-              StoryCard(
-                color: Colors.red,
-              ),
-              StoryCard(color: Color.fromARGB(255, 13, 161, 235)),
-              StoryCard(color: Color.fromARGB(255, 232, 11, 203)),
-              StoryCard(color: Color.fromARGB(255, 139, 96, 96)),
-              StoryCard(color: Color.fromARGB(255, 136, 139, 96)),
-            ],
+          child: SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(
+              children: [
+                StoryCard(color: Colors.green),
+                StoryCard(color: Colors.red),
+                StoryCard(color: Color.fromARGB(255, 13, 161, 235)),
+                StoryCard(color: Color.fromARGB(255, 232, 11, 203)),
+                StoryCard(color: Color.fromARGB(255, 139, 96, 96)),
+                StoryCard(color: Color.fromARGB(255, 136, 139, 96)),
+              ],
+            ),
           ),
         ));
   }
