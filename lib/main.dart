@@ -39,10 +39,10 @@ class _MyHomePageState extends State<MyHomePage> {
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
           title: Text(widget.title),
         ),
-        body: const Padding(
-          padding: EdgeInsets.all(4),
-          child: SingleChildScrollView(
-            scrollDirection: Axis.horizontal,
+        body: const SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          child: Padding(
+            padding: EdgeInsets.all(4),
             child: Row(
               children: [
                 StoryCard(color: Colors.green),
