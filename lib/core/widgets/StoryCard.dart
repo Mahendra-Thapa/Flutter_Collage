@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class StoryCard extends StatelessWidget {
   final Color color;
-
-  const StoryCard({super.key, required this.color});
+  final String text;
+  const StoryCard({super.key, required this.color, required this.text});
 
   @override
   Widget build(BuildContext context) {
@@ -29,19 +30,19 @@ class StoryCard extends StatelessWidget {
             ),
             Positioned(
               // width: MediaQuery.of(context).size.width / 5,
-
               left: 10,
               bottom: 10,
               child: Container(
                 padding: const EdgeInsets.only(right: 10),
                 width: MediaQuery.of(context).size.width / 4,
-                child: const Text(
-                  "Mahendra Thapa is a flutter developer",
+                child: Text(
+                  text,
                   maxLines: 2,
                   style: const TextStyle(
-                      color: Colors.black,
+                      color: Colors.white,
                       fontFamily: AutofillHints.addressState,
-                      fontSize: 14),
+                      fontSize: 12,
+                      fontWeight: FontWeight.w600),
                   softWrap: true,
                 ),
               ),

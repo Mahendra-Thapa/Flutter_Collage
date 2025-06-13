@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_practice/core/widgets/CreateStoryCard.dart';
+import 'package:flutter_practice/core/widgets/FbFeed.dart';
 import 'package:flutter_practice/core/widgets/StoryCard.dart';
 
 void main() {
@@ -39,21 +41,50 @@ class _MyHomePageState extends State<MyHomePage> {
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
           title: Text(widget.title),
         ),
-        body: const SingleChildScrollView(
-          scrollDirection: Axis.horizontal,
-          child: Padding(
-            padding: EdgeInsets.all(4),
-            child: Row(
-              children: [
-                StoryCard(color: Colors.green),
-                StoryCard(color: Colors.red),
-                StoryCard(color: Color.fromARGB(255, 13, 161, 235)),
-                StoryCard(color: Color.fromARGB(255, 232, 11, 203)),
-                StoryCard(color: Color.fromARGB(255, 139, 96, 96)),
-                StoryCard(color: Color.fromARGB(255, 136, 139, 96)),
-              ],
+        body: ListView(
+          children: const [
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Padding(
+                padding: EdgeInsets.all(4),
+                child: Row(
+                  children: [
+                    CreateStoryCard(),
+                    StoryCard(
+                      color: Colors.green,
+                      text: "Mahendra Thapa",
+                    ),
+                    StoryCard(
+                      color: Colors.red,
+                      text: "Mahendra Thapa",
+                    ),
+                    StoryCard(
+                      color: Color.fromARGB(255, 13, 161, 235),
+                      text: "Sangam magar",
+                    ),
+                    StoryCard(
+                      color: Color.fromARGB(255, 232, 11, 203),
+                      text: "Dawa Tamang",
+                    ),
+                    StoryCard(
+                      color: Color.fromARGB(255, 139, 96, 96),
+                      text: "Pragesh Bhandari",
+                    ),
+                    StoryCard(
+                      color: Color.fromARGB(255, 136, 139, 96),
+                      text: "Dipesh Khatri",
+                    ),
+                  ],
+                ),
+              ),
             ),
-          ),
+            Fbfeed(),
+            Fbfeed(),
+            Fbfeed(),
+            Fbfeed(),
+            Fbfeed(),
+            Fbfeed(),
+          ],
         ));
   }
 }
