@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_practice/dataModel/feed.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class Fbfeed extends StatelessWidget {
-  const Fbfeed({super.key});
+  Feed feed;
+  Fbfeed({super.key, required this.feed});
 
   @override
   Widget build(BuildContext context) {
@@ -11,11 +13,13 @@ class Fbfeed extends StatelessWidget {
       margin: const EdgeInsets.only(bottom: 12.0),
       // color: Colors.grey[200],
       width: MediaQuery.sizeOf(context).width,
+      decoration: const BoxDecoration(
+          border: Border(top: BorderSide(width: 2, color: Colors.grey))),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Padding(
-            padding: const EdgeInsets.all(10.0),
+          Padding(
+            padding: EdgeInsets.all(10.0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -26,8 +30,7 @@ class Fbfeed extends StatelessWidget {
                       child: Image(
                           height: 40,
                           width: 40,
-                          image: NetworkImage(
-                              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2TgOv9CMmsUzYKCcLGWPvqcpUk6HXp2mnww&s")),
+                          image: NetworkImage(feed.profileImage)),
                     ),
                     // Container(
                     //   height: 40,
@@ -38,18 +41,18 @@ class Fbfeed extends StatelessWidget {
                     const SizedBox(
                       width: 10,
                     ),
-                    const Column(
+                    Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          "Mahedra Thapa",
-                          style: TextStyle(
+                          feed.name,
+                          style: const TextStyle(
                               color: Colors.black, fontWeight: FontWeight.w600),
                         ),
                         Row(
                           children: [
-                            Text("32m."),
-                            Icon(
+                            Text(feed.time),
+                            const Icon(
                               Icons.language,
                               size: 12,
                             ),
@@ -82,11 +85,11 @@ class Fbfeed extends StatelessWidget {
               ],
             ),
           ),
-          const Padding(
-            padding: EdgeInsets.only(right: 10.0, left: 10.0),
+          Padding(
+            padding: const EdgeInsets.only(right: 10.0, left: 10.0),
             child: Column(
               children: [
-                Text("This is my first application by using the flutter"),
+                Text(feed.description),
               ],
             ),
           ),
@@ -98,14 +101,12 @@ class Fbfeed extends StatelessWidget {
               SizedBox(
                 height: 200,
                 width: MediaQuery.sizeOf(context).width / 2,
-                child: Image.network(
-                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjPCZjLeGG7aWW10AHSBp6ybm8elMmfll7WNvc6SnUmaYfMUCgYpI5PLGQn2Uu-iREkg0&usqp=CAU"),
+                child: Image.network(feed.feedImage1),
               ),
               SizedBox(
                 height: 200,
                 width: MediaQuery.sizeOf(context).width / 2,
-                child: Image.network(
-                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjPCZjLeGG7aWW10AHSBp6ybm8elMmfll7WNvc6SnUmaYfMUCgYpI5PLGQn2Uu-iREkg0&usqp=CAU"),
+                child: Image.network(feed.feedImage2),
               ),
             ],
           ),

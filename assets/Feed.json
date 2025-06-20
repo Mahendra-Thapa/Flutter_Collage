@@ -1,0 +1,245 @@
+[
+  {
+    "id": 17,
+    "name": "Mahendra Thapa",
+    "description": "Freshly baked cookies today.",
+    "feedImage1": "https://picsum.photos/seed/47/400/300",
+    "feedImage2": "https://picsum.photos/seed/48/400/300",
+    "profileImage": "https://picsum.photos/seed/profile47/100/100",
+    "time": "2h"
+  },
+  {
+    "id": 18,
+    "name": "Rita Pokharel",
+    "description": "Beach day with salty air and peaceful waves.",
+    "feedImage1": "https://picsum.photos/seed/49/400/300",
+    "feedImage2": "https://picsum.photos/seed/50/400/300",
+    "profileImage": "https://picsum.photos/seed/profile49/100/100",
+    "time": "5h"
+  },
+  {
+    "id": 19,
+    "name": "Suresh Lama",
+    "description": "Road trip through winding hills and breathtaking views.\nSpending time with friends and enjoying the ride.",
+    "feedImage1": "https://picsum.photos/seed/51/400/300",
+    "feedImage2": "https://picsum.photos/seed/52/400/300",
+    "profileImage": "https://picsum.photos/seed/profile51/100/100",
+    "time": "7h"
+  },
+  {
+    "id": 20,
+    "name": "Pooja Bhattarai",
+    "description": "Morning yoga by the river.",
+    "feedImage1": "https://picsum.photos/seed/53/400/300",
+    "feedImage2": "https://picsum.photos/seed/54/400/300",
+    "profileImage": "https://picsum.photos/seed/profile53/100/100",
+    "time": "1d"
+  },
+  {
+    "id": 21,
+    "name": "Bikash Singh",
+    "description": "Captured the moon behind the clouds last night.",
+    "feedImage1": "https://picsum.photos/seed/55/400/300",
+    "feedImage2": "https://picsum.photos/seed/56/400/300",
+    "profileImage": "https://picsum.photos/seed/profile55/100/100",
+    "time": "3h"
+  },
+  {
+    "id": 22,
+    "name": "Sanjana K.C.",
+    "description": "Weekend picnic with family under the blue sky.\nFood, laughter, and lots of games.",
+    "feedImage1": "https://picsum.photos/seed/57/400/300",
+    "feedImage2": "https://picsum.photos/seed/58/400/300",
+    "profileImage": "https://picsum.photos/seed/profile57/100/100",
+    "time": "4h"
+  },
+  {
+    "id": 23,
+    "name": "Deepak Adhikari",
+    "description": "Coding late night, fueled by coffee.",
+    "feedImage1": "https://picsum.photos/seed/59/400/300",
+    "feedImage2": "https://picsum.photos/seed/60/400/300",
+    "profileImage": "https://picsum.photos/seed/profile59/100/100",
+    "time": "45m"
+  },
+  {
+    "id": 24,
+    "name": "Nina Thapa",
+    "description": "Snowfall brings so much childhood nostalgia.",
+    "feedImage1": "https://picsum.photos/seed/61/400/300",
+    "feedImage2": "https://picsum.photos/seed/62/400/300",
+    "profileImage": "https://picsum.photos/seed/profile61/100/100",
+    "time": "6h"
+  },
+  {
+    "id": 25,
+    "name": "Ashok Rai",
+    "description": "Exploring hidden mountain trails.",
+    "feedImage1": "https://picsum.photos/seed/63/400/300",
+    "feedImage2": "https://picsum.photos/seed/64/400/300",
+    "profileImage": "https://picsum.photos/seed/profile63/100/100",
+    "time": "8h"
+  },
+  {
+    "id": 26,
+    "name": "Maya Gurung",
+    "description": "A peaceful walk in the woods.",
+    "feedImage1": "https://picsum.photos/seed/65/400/300",
+    "feedImage2": "https://picsum.photos/seed/66/400/300",
+    "profileImage": "https://picsum.photos/seed/profile65/100/100",
+    "time": "30m"
+  },
+  {
+    "id": 27,
+    "name": "Raj Sharma",
+    "description": "Sunset cycling and cool breeze across the hills.",
+    "feedImage1": "https://picsum.photos/seed/67/400/300",
+    "feedImage2": "https://picsum.photos/seed/68/400/300",
+    "profileImage": "https://picsum.photos/seed/profile67/100/100",
+    "time": "12h"
+  },
+  {
+    "id": 28,
+    "name": "Neha Magar",
+    "description": "Camping under the stars last night.\nFelt connected with nature and at peace.",
+    "feedImage1": "https://picsum.photos/seed/69/400/300",
+    "feedImage2": "https://picsum.photos/seed/70/400/300",
+    "profileImage": "https://picsum.photos/seed/profile69/100/100",
+    "time": "1h"
+  },
+  {
+    "id": 29,
+    "name": "Suraj KC",
+    "description": "Art and coffee mornings.",
+    "feedImage1": "https://picsum.photos/seed/71/400/300",
+    "feedImage2": "https://picsum.photos/seed/72/400/300",
+    "profileImage": "https://picsum.photos/seed/profile71/100/100",
+    "time": "2d"
+  },
+  {
+    "id": 30,
+    "name": "Priya Shakya",
+    "description": "Attended a photography workshop today.\nLearned so much about light and shadows!",
+    "feedImage1": "https://picsum.photos/seed/73/400/300",
+    "feedImage2": "https://picsum.photos/seed/74/400/300",
+    "profileImage": "https://picsum.photos/seed/profile73/100/100",
+    "time": "5h"
+  },
+  {
+    "id": 31,
+    "name": "Binod Karki",
+    "description": "Trying new recipes and filling the kitchen with joy.",
+    "feedImage1": "https://picsum.photos/seed/75/400/300",
+    "feedImage2": "https://picsum.photos/seed/76/400/300",
+    "profileImage": "https://picsum.photos/seed/profile75/100/100",
+    "time": "9h"
+  },
+  {
+    "id": 32,
+    "name": "Sunita Adhikari",
+    "description": "Flower garden therapy.",
+    "feedImage1": "https://picsum.photos/seed/77/400/300",
+    "feedImage2": "https://picsum.photos/seed/78/400/300",
+    "profileImage": "https://picsum.photos/seed/profile77/100/100",
+    "time": "11h"
+  },
+  {
+    "id": 33,
+    "name": "Kiran Lama",
+    "description": "Road trip memories in the making.",
+    "feedImage1": "https://picsum.photos/seed/79/400/300",
+    "feedImage2": "https://picsum.photos/seed/80/400/300",
+    "profileImage": "https://picsum.photos/seed/profile79/100/100",
+    "time": "4h"
+  },
+  {
+    "id": 34,
+    "name": "Rekha Thapa",
+    "description": "Garage band rehearsal tonight!",
+    "feedImage1": "https://picsum.photos/seed/81/400/300",
+    "feedImage2": "https://picsum.photos/seed/82/400/300",
+    "profileImage": "https://picsum.photos/seed/profile81/100/100",
+    "time": "7h"
+  },
+  {
+    "id": 35,
+    "name": "Dipak Bhandari",
+    "description": "Camping under the stars last night.\nFelt connected with nature and at peace.",
+    "feedImage1": "https://picsum.photos/seed/83/400/300",
+    "feedImage2": "https://picsum.photos/seed/84/400/300",
+    "profileImage": "https://picsum.photos/seed/profile83/100/100",
+    "time": "3h"
+  },
+  {
+    "id": 36,
+    "name": "Samjhana Ghale",
+    "description": "Coffee, code, and chill.",
+    "feedImage1": "https://picsum.photos/seed/85/400/300",
+    "feedImage2": "https://picsum.photos/seed/86/400/300",
+    "profileImage": "https://picsum.photos/seed/profile85/100/100",
+    "time": "10m"
+  },
+  {
+    "id": 37,
+    "name": "Anil Shrestha",
+    "description": "Celebrated dad's birthday with homemade cake.\nHe loved the surprise and the decorations!",
+    "feedImage1": "https://picsum.photos/seed/87/400/300",
+    "feedImage2": "https://picsum.photos/seed/88/400/300",
+    "profileImage": "https://picsum.photos/seed/profile87/100/100",
+    "time": "1d"
+  },
+  {
+    "id": 38,
+    "name": "Kanchan Rai",
+    "description": "Sunset cycling and cool breeze across the hills.",
+    "feedImage1": "https://picsum.photos/seed/89/400/300",
+    "feedImage2": "https://picsum.photos/seed/90/400/300",
+    "profileImage": "https://picsum.photos/seed/profile89/100/100",
+    "time": "2h"
+  },
+  {
+    "id": 39,
+    "name": "Laxman Tamang",
+    "description": "Morning yoga at the riverside.",
+    "feedImage1": "https://picsum.photos/seed/91/400/300",
+    "feedImage2": "https://picsum.photos/seed/92/400/300",
+    "profileImage": "https://picsum.photos/seed/profile91/100/100",
+    "time": "6h"
+  },
+  {
+    "id": 40,
+    "name": "Ekta Sharma",
+    "description": "Captured the moon behind the clouds last night.",
+    "feedImage1": "https://picsum.photos/seed/93/400/300",
+    "feedImage2": "https://picsum.photos/seed/94/400/300",
+    "profileImage": "https://picsum.photos/seed/profile93/100/100",
+    "time": "8h"
+  },
+  {
+    "id": 41,
+    "name": "Raju Bista",
+    "description": "Street food crawl downtown!",
+    "feedImage1": "https://picsum.photos/seed/95/400/300",
+    "feedImage2": "https://picsum.photos/seed/96/400/300",
+    "profileImage": "https://picsum.photos/seed/profile95/100/100",
+    "time": "20h"
+  },
+  {
+    "id": 42,
+    "name": "Sabita KC",
+    "description": "A peaceful walk in the woods.",
+    "feedImage1": "https://picsum.photos/seed/97/400/300",
+    "feedImage2": "https://picsum.photos/seed/98/400/300",
+    "profileImage": "https://picsum.photos/seed/profile97/100/100",
+    "time": "9h"
+  },
+  {
+    "id": 43,
+    "name": "Manoj Dhakal",
+    "description": "Snowfall brings so much childhood nostalgia.",
+    "feedImage1": "https://picsum.photos/seed/99/400/300",
+    "feedImage2": "https://picsum.photos/seed/100/400/300",
+    "profileImage": "https://picsum.photos/seed/profile99/100/100",
+    "time": "1h"
+  }
+]
